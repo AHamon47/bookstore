@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+	<h:head>
+		<title>Return</title>
+		<style>
+			div {
+			  border: 1px solid gray;
+			  padding: 8px;
+			}
+			
+			h1 {
+			  text-align: center;
+			  text-transform: uppercase;
+			  color: #4CAF50;
+			}
+						
+			p {
+			  text-indent: 50px;
+			  text-align: center;
+			  letter-spacing: 1px;
+			}
+			
+			a {
+			  text-decoration: none;
+			  color: #008CBA;
+			}
+			
+			.return {
+			  color: red;
+			}
+		</style>
+	</h:head>
+	
+	<h:body>
+		<div>
+			<h1>Return value</h1>
+			<p>Hello <h:outputText class="return" value="#{book.id}"/> nice name !</p>
+		</div>
+	</h:body>
+</html>
